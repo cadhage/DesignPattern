@@ -6,7 +6,7 @@ import org.designpattern.practice.StructuralPatterns.DecoratorPatternService.Cof
 import org.designpattern.practice.BehavioralPatterns.MediatorPatternService.ChatService;
 import org.designpattern.practice.StructuralPatterns.ProxyPatternService.InternetService;
 import org.designpattern.practice.CreationalPatterns.FactoryPatternService.NotificationService;
-import org.designpattern.practice.CreationalPatterns.SingletonPatternService.SingletonService;
+//import org.designpattern.practice.CreationalPatterns.SingletonPatternService.SingletonService;
 import org.designpattern.practice.BehavioralPatterns.StatePatternService.PlayerService;
 import org.designpattern.practice.BehavioralPatterns.TemplateMethodPatternService.GameService;
 import org.designpattern.practice.BehavioralPatterns.VisitorPatternService.ShoppingCartService;
@@ -18,10 +18,10 @@ public class DesignPatternsController {
         NotificationService notificationService = new NotificationService();
         notificationService.sendNotification("SMS");  // This will create and send an SMS Notification
 
-        // Singleton Pattern - Ensures a class has only one instance
-        System.out.println("\nSingleton Pattern:");
-        SingletonService singletonService = SingletonService.getInstance();
-        singletonService.showMessage();  // Only one instance of SingletonService will be created
+//        // Singleton Pattern - Ensures a class has only one instance
+//        System.out.println("\nSingleton Pattern:");
+//        SingletonService singletonService = SingletonService.getInstance();
+//        singletonService.showMessage();  // Only one instance of SingletonService will be created
 
         // Decorator Pattern - Adds new functionalities to an object dynamically
         System.out.println("\nDecorator Pattern:");
